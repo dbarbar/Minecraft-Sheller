@@ -2,7 +2,7 @@
 echo "Alternate Config file in use"
 # Main
 MC_PATH=/home/minecraft
-SERVER_PATH="server"
+SERVER_PATH=""
 ONLINE_PATH=$MC_PATH/$SERVER_PATH
 OFFLINE_PATH=$MC_PATH/offline
 USE_RAMDISK=0
