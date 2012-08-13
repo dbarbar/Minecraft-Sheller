@@ -8,12 +8,12 @@ OFFLINE_PATH=$MC_PATH/offline
 USE_RAMDISK=0
 RAMDISK_PATH=/dev/shm/
 SCREEN_NAME="minecraft"
-MEMMAX=1024
+MEMMAX=1536
 DISPLAY_ON_LAUNCH=0
 SERVER_OPTIONS="-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=2 -XX:+AggressiveOpts"
 
 # Modifications
-SERVERMOD=1
+SERVERMOD=0
 MODJAR="craftbukkit-0.0.1-SNAPSHOT.jar"
 RUNECRAFT=0
 MCMYADMIN=0
